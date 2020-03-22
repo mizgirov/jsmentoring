@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.bg-video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-video__content {
+  height: 98vh;
+}
+
+.login__form {
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input {
+  margin-top: 5px;
+  background-color: black;
+  color: cornflowerblue;
+  border: 1px solid #3fa9ff;
+}
+
+.submit__btn {
+  margin-top: 5px;
+  outline: none;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #33bdef), to(#019ad2));
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  border: none;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+}
+
+.submit__btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #019ad2), to(#33bdef));
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+.submit__btn:active {
+  position: relative;
+  top: 1px;
+}
+/*# sourceMappingURL=style.css.map */
